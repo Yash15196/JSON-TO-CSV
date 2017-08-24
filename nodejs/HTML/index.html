@@ -80,7 +80,7 @@ let svg = d3.select("body").append("svg")
 
 
 // load the data
-d3.json("output_1.json", function(error, data) {
+d3.json("../JSON/output_1.json", function(error, data) {
 
     data.forEach(function(d) {
         d.CountryName = d.CountryName;
