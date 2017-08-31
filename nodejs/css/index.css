@@ -1,0 +1,34 @@
+
+.bar{
+    fill: steelblue;
+  }
+
+  .bar:hover{
+    fill: brown;
+  }
+
+    .axis {
+      font: 10px sans-serif;
+    }
+
+    .axis path,
+    .axis line {
+      fill: none;
+      stroke: #000;
+      shape-rendering: crispEdges;
+    }
+
+
+body{
+  margin-left: 30%;
+  margin-top: 50px;
+}
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    padding: 10px 10px;
+    text-decoration: none;
+    color: initial;
+    margin-right: 500px;
+}
